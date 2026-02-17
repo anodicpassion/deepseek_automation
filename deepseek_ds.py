@@ -18,14 +18,7 @@ from selenium.webdriver.chrome.options import Options
 #     "account1@gmail.com":  "Password3Here",
 #     "account2@gmail.com":  "Password2Here",
 # }
-ACCOUNTS = {
-    "roadlyft+a@gmail.com": "werze2-durqyh-xYszif",
-    "roadlyft+b@gmail.com": "werze2-durqyh-xYszif",
-    "roadlyft+c@gmail.com": "werze2-durqyh-xYszif",
-    "roadlyft+d@gmail.com": "werze2-durqyh-xYszif",
-    "roadlyft+e@gmail.com": "werze2-durqyh-xYszif",
-    # "roadlyft+f@gmail.com": "werze2-durqyh-xYszif",
-}
+
 
 app = Flask(__name__)
 pool_lock = threading.Lock()
